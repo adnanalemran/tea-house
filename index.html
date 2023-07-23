@@ -11,17 +11,18 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d855f114ac.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
     <style>
         .font-manrope {
             font-family: 'Manrope', sans-serif;
@@ -30,9 +31,35 @@
 </head>
 
 <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto">
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+
+                <div>
+                    <h1 class="text-7xl  font-extrabold">It's good <br>
+                        tea time at The <br> Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary">Explore more</button>
+                </div>
+                <div class="">
+
+                    <img src="./images/banner.png" class="max-w-sm  " />
+                     
+                    <div class="-mt-16 flex items-center gap-4 drop-shadow bg-white p-5 w-60">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
+
 </body>
 
 </html>
